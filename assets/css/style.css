@@ -1,0 +1,19 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title-name {
+    text-align: center;
+    font-size: 70px;
+    font-style: bold;
+    background-color: purple;
+    color: white;
+}
+
+.container {
+    display: inline;
+}
+
