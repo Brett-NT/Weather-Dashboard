@@ -14,6 +14,18 @@
 }
 
 .container {
-    display: inline;
+    display: flex;
+}
+
+.search-container {
+    flex: 1;
+    border: 3px solid;
+    margin: 20px;
+    padding: 30px;
+}
+.current-forecast {
+    flex: 1;
+    align-items: right;
+    max-width: 50%;
 }
 
