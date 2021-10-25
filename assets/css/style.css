@@ -1,0 +1,56 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title-name {
+    text-align: center;
+    font-size: 70px;
+    font-style: bold;
+    background-color: purple;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.search-container {
+    flex: 1;
+    border: 3px solid;
+    margin: 20px;
+    padding: 30px;
+}
+.btn {
+    background-color: rgb(77, 5, 77);
+    color: white;
+}
+.current-forecast {
+    flex: 1;
+    align-items: right;
+    max-width: 50%;
+    margin: 20px;
+    padding: 30px;
+}
+
+.previous {
+border-top: 1px solid;
+}
+button {
+    display: block;
+    padding: 10px;
+}
+
+.history{
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: grey;
+    color: white;
+}
+
+
